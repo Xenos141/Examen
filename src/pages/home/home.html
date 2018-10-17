@@ -7,31 +7,36 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-card>
-    <ion-card-header>
-      Nintendo
-    </ion-card-header>
-
-    <ion-list>
-      <button ion-item>
-        Breath of the Wild Soundtrack
-      </button>
-
-      <ion-card>
-        <ion-card-header>
-          2017
-        </ion-card-header>
-      </ion-card>
-
-      <button ion-item>
-        
-      </button>
   
-      <button ion-item>
-        <ion-icon name="cafe" item-start></ion-icon>
-        Cafe
-      </button>
-    </ion-list>
-  </ion-card>
+  
+    
+    <ion-card style = "background-color: rgb(255,0,255)">
+  <ion-row>
+      <ion-col>
+        <img src = "../assets/Twilight Princess.jpg" (click) = "Imagen1()">
+      </ion-col>
 
+      <ion-col>
+        <h3 (click) = "Canciones1()">
+          Twilight Princess Soundtrack
+        </h3>
+        <h4 (click) = "Artista1()">
+          Nintendo
+        </h4>
+        <h5>
+          2015
+        </h5>
+        <h6 (click) = "Star1()">
+          <ion-icon name = "star"></ion-icon>
+          <ion-icon name = "star"></ion-icon>
+          <ion-icon name = "star"></ion-icon>
+          <ion-icon name = "star"></ion-icon>
+          <ion-icon name = "star"></ion-icon>
+        </h6>
+        <h6>
+          <ion-icon name = "play"></ion-icon>
+        </h6>
+      </ion-col>
+    </ion-row> 
+  </ion-card>
 </ion-content>
