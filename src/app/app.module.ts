@@ -8,13 +8,17 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { CancionesPage } from '../pages/canciones/canciones';
 import { ImagenPage } from '../pages/imagen/imagen';
+import { ArtistaPage } from '../pages/artista/artista';
+import { StarPage } from '../pages/star/star';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     CancionesPage,
-    ImagenPage
+    ImagenPage,
+    ArtistaPage,
+    StarPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { ImagenPage } from '../pages/imagen/imagen';
     MyApp,
     HomePage,
     CancionesPage,
-    ImagenPage
+    ImagenPage,
+    ArtistaPage,
+    StarPage
   ],
   providers: [
     StatusBar,
