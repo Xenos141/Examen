@@ -10,6 +10,7 @@ import { CancionesPage } from '../pages/canciones/canciones';
 import { ImagenPage } from '../pages/imagen/imagen';
 import { ArtistaPage } from '../pages/artista/artista';
 import { StarPage } from '../pages/star/star';
+import { ComPage } from '../pages/com/com';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { StarPage } from '../pages/star/star';
     ImagenPage,
     ArtistaPage,
     StarPage
+
   ],
   imports: [
     BrowserModule,
@@ -32,6 +34,7 @@ import { StarPage } from '../pages/star/star';
     ImagenPage,
     ArtistaPage,
     StarPage
+   
   ],
   providers: [
     StatusBar,
